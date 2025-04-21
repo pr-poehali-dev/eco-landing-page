@@ -1,22 +1,20 @@
-import Navbar from "@/components/eco/Navbar";
-import Hero from "@/components/eco/Hero";
-import About from "@/components/eco/About";
-import Products from "@/components/eco/Products";
-import Benefits from "@/components/eco/Benefits";
-import Testimonials from "@/components/eco/Testimonials";
-import CallToAction from "@/components/eco/CallToAction";
-import Footer from "@/components/eco/Footer";
+import Navbar from "@/components/portfolio/Navbar";
+import Hero from "@/components/portfolio/Hero";
+import Services from "@/components/portfolio/Services";
+import Portfolio from "@/components/portfolio/Portfolio";
+import Process from "@/components/portfolio/Process";
+import Contact from "@/components/portfolio/Contact";
+import Footer from "@/components/portfolio/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-designer-light">
       <Navbar />
       <Hero />
-      <About />
-      <Products />
-      <Benefits />
-      <Testimonials />
-      <CallToAction />
+      <Services />
+      <Portfolio />
+      <Process />
+      <Contact />
       <Footer />
     </div>
   );
